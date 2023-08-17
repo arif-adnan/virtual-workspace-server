@@ -195,7 +195,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send( `Responsing from port ${port}!`);
+  res.send( `Hello from virtual workspace!`);
 });
 
 app.listen(port, () => {
